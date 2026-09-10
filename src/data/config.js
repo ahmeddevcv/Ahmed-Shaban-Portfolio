@@ -6,6 +6,7 @@ export const CONTACT = {
   web3formsKey: "7c163ee1-df7b-43ba-8908-fffa28730026", // Get your free access key from https://web3forms.com/
   whatsapp: "+201129841926",
   phone: "+201129841926",
+  phone2: "+201010266145",
   linkedin: "https://www.linkedin.com/in/ahmed-dev-cv/",
   github: "https://github.com/ahmeddevcv",
 };
