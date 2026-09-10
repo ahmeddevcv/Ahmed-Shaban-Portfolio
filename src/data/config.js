@@ -16,3 +16,11 @@ export const SITE = {
   role: "Full-Stack .NET Developer",
   yearsExperience: "2+",
 };
+
+export const AVAILABILITY = {
+  // Set to false when you get a job, true when looking
+  isAvailable: true,
+  // The text shown when available
+  statusText: "Available for immediate joining as Software Engineer, Full-Stack .NET, Backend .NET, or Frontend Developer",
+};
+

@@ -13,6 +13,11 @@ function Footer() {
         </div>
 
         <div className="footer-links">
+          {CONTACT.email && (
+            <a href={`mailto:${CONTACT.email}`}>
+              {CONTACT.email}
+            </a>
+          )}
           {CONTACT.whatsapp && (
             <a href={`https://wa.me/${CONTACT.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">
               WhatsApp
