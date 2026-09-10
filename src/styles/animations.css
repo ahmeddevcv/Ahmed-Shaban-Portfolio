@@ -1,0 +1,43 @@
+/* Shared animation helpers. Section-level entrance/stagger transitions are
+   handled per-component via Framer Motion's whileInView; this file covers
+   small CSS-only transitions (hover states, blinking cursor, image zoom)
+   that don't need JS-driven orchestration. */
+
+.blink {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  animation: blink-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes blink-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.project-card-media img {
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-card-media img {
+  transform: scale(1.04);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blink {
+    animation: none;
+    opacity: 1;
+  }
+  .project-card-media img,
+  .project-card:hover .project-card-media img {
+    transition: none;
+    transform: none;
+  }
+}
