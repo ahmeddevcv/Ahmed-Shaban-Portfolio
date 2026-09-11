@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
+import AhmedPhoto from "../assets/images/Ahmed_Shaban_Photo.png";
 import "../styles/about.css";
 
 const badges = [
@@ -27,8 +28,15 @@ function About() {
               transition={{ duration: 0.5 }}
               className="about-avatar-card"
             >
-              <div className="avatar-initials">AH</div>
-              <h3>Ahmed</h3>
+              <div className="about-photo-wrapper">
+                <img
+                  src={AhmedPhoto}
+                  alt="Ahmed Shaban — Full-Stack .NET Developer"
+                  className="about-photo"
+                />
+              </div>
+
+              <h3>Ahmed Shaban</h3>
               <div className="role">Full-Stack .NET Developer</div>
               <div className="about-badges">
                 {badges.map((b) => (

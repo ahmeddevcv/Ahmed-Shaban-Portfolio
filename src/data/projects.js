@@ -37,7 +37,7 @@ export const projects = [
     externalServices: ["Skyscanner"],
     github: "",
     liveDemo: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 2,
@@ -72,7 +72,7 @@ export const projects = [
     externalServices: ["WhatsApp Business Cloud API", "Bunny.NET", "Google Cloud"],
     github: "",
     liveDemo: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 3,
@@ -101,7 +101,7 @@ export const projects = [
     externalServices: ["WebRTC", "SignalR"],
     github: "",
     liveDemo: "",
-    image: "",
+    image: "https://thumbs.dreamstime.com/b/artificial-intelligence-brain-logo-connections-multi-color-generative-ai-illustration-artificial-intelligence-brain-logo-272759867.jpg",
   },
   {
     id: 4,
@@ -137,7 +137,7 @@ export const projects = [
     externalServices: [],
     github: "",
     liveDemo: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 5,
@@ -164,6 +164,6 @@ export const projects = [
     externalServices: [],
     github: "",
     liveDemo: "",
-    image: "",
+    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
   },
 ];

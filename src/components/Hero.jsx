@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 import { CONTACT, AVAILABILITY } from "../data/config";
+import AhmedPhoto from "../assets/images/Ahmed_Shaban_Photo.png";
 import "../styles/hero.css";
 
 const codeLines = [
@@ -158,6 +159,14 @@ function Hero() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.65, delay: 0.15, ease: "easeOut" }}
             >
+              <div className="hero-photo-wrapper">
+                <div className="hero-photo-glow" aria-hidden="true" />
+                <img
+                  src={AhmedPhoto}
+                  alt="Ahmed Shaban — Full-Stack .NET Developer"
+                  className="hero-photo"
+                />
+              </div>
               <div className="code-editor-card">
                 <div className="code-editor-header">
                   <span className="editor-dots">
