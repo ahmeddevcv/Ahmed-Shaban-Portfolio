@@ -35,7 +35,7 @@ export const projects = [
       "SQL Database",
     ],
     externalServices: ["Skyscanner"],
-    github: "https://github.com/ahmeddevcv/TravelBookingSystem-For-Flights-and-Hotels",
+    github: "https://github.com/ahmeddevcv/TravelBookingSystem-For-Flights-and-Hotels/tree/master",
     liveDemo: "https://travel-booking-frontend-ten.vercel.app/auth/login",
     image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
   },
