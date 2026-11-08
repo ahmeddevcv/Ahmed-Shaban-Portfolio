@@ -135,8 +135,8 @@ export const projects = [
       "SQL Database",
     ],
     externalServices: [],
-    github: "",
-    liveDemo: "",
+    github: "https://github.com/ahmeddevcv/TalabatApi",
+    liveDemo: "https://talabat-ui.vercel.app/",
     image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=800&q=80",
   },
   {
