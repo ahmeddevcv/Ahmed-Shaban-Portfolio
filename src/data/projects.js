@@ -41,8 +41,44 @@ export const projects = [
   },
   {
     id: 2,
-    slug: "lms",
+    slug: "food-ordering",
     number: "02",
+    title: "Food Ordering Platform Backend",
+    category: "Backend System",
+    description:
+      "Backend system for an online food ordering platform, handling core ordering workflows and business logic.",
+    highlight:
+      "Structured with the Repository and Unit of Work patterns for maintainable data access.",
+    technologies: [
+      "ASP.NET Core",
+      "C#",
+      "RESTful API",
+      "Entity Framework Core",
+      "SQL",
+      "Repository Pattern",
+      "Unit of Work",
+    ],
+    overview:
+      "A backend system powering the core ordering workflow for a food ordering platform — menus, orders, and order state.",
+    problem:
+      "Ordering platforms need reliable, consistent handling of orders and menu data as they move through multiple states.",
+    solution:
+      "Built a RESTful API in ASP.NET Core with Entity Framework Core for data access, applying the Repository and Unit of Work patterns to keep business logic and data access cleanly separated.",
+    architecture: [
+      "ASP.NET Core REST API",
+      "Business Logic Layer",
+      "Repository / Unit of Work",
+      "SQL Database",
+    ],
+    externalServices: [],
+    github: "https://github.com/ahmeddevcv/TalabatApi",
+    liveDemo: "https://talabat-ui.vercel.app/",
+    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 3,
+    slug: "lms",
+    number: "03",
     title: "Learning Management System",
     category: "Full-Stack Web Application",
     description:
@@ -75,9 +111,9 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
   },
   {
-    id: 3,
+    id: 4,
     slug: "ai-meeting",
-    number: "03",
+    number: "04",
     title: "AI Meeting Application",
     category: "Real-Time Application",
     description:
@@ -102,42 +138,6 @@ export const projects = [
     github: "",
     liveDemo: "",
     image: "https://thumbs.dreamstime.com/b/artificial-intelligence-brain-logo-connections-multi-color-generative-ai-illustration-artificial-intelligence-brain-logo-272759867.jpg",
-  },
-  {
-    id: 4,
-    slug: "food-ordering",
-    number: "04",
-    title: "Food Ordering Platform Backend",
-    category: "Backend System",
-    description:
-      "Backend system for an online food ordering platform, handling core ordering workflows and business logic.",
-    highlight:
-      "Structured with the Repository and Unit of Work patterns for maintainable data access.",
-    technologies: [
-      "ASP.NET Core",
-      "C#",
-      "RESTful API",
-      "Entity Framework Core",
-      "SQL",
-      "Repository Pattern",
-      "Unit of Work",
-    ],
-    overview:
-      "A backend system powering the core ordering workflow for a food ordering platform — menus, orders, and order state.",
-    problem:
-      "Ordering platforms need reliable, consistent handling of orders and menu data as they move through multiple states.",
-    solution:
-      "Built a RESTful API in ASP.NET Core with Entity Framework Core for data access, applying the Repository and Unit of Work patterns to keep business logic and data access cleanly separated.",
-    architecture: [
-      "ASP.NET Core REST API",
-      "Business Logic Layer",
-      "Repository / Unit of Work",
-      "SQL Database",
-    ],
-    externalServices: [],
-    github: "https://github.com/ahmeddevcv/TalabatApi",
-    liveDemo: "https://talabat-ui.vercel.app/",
-    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 5,
